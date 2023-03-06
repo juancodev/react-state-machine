@@ -1,11 +1,9 @@
-import { BaseLayout } from './components/BaseLayout';
+import { BaseLayout } from './Containers/BaseLayout';
 import './App.css';
 
 function App() {
   return (
-    <>
-      <BaseLayout />
-    </>
+    <BaseLayout />
   );
 }
 
